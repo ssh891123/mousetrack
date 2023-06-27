@@ -4,7 +4,7 @@ interface ButtonProps {
     onClick: () => void;
 }
 
-function Button({ selected, name, onClick}: ButtonProps) {
+function Button({ selected = false, name, onClick}: ButtonProps) {
     return (
         <div 
             style = {{

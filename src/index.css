@@ -16,4 +16,7 @@ code {
 html {
   /* 마우스 커서 제거 */
   cursor: none;
+
+  /* 32 X 32 이하의 이미지만 가능함 */
+  /* cursor: url('/images/cursor1.png'); */
 }
